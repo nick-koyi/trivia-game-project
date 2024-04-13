@@ -1,8 +1,9 @@
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Finlandica', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #5A5A5A;
 }
 
 .container {
@@ -12,6 +13,10 @@ body {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container.dark-mode {
+  background-color: black;
 }
 
 h1 {
@@ -37,6 +42,7 @@ h1 {
 
 button {
   padding: 10px 20px;
+  margin-top: 10px;
   background-color: #007bff;
   color: #fff;
   border: none;
